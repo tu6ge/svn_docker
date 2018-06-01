@@ -1,0 +1,12 @@
+version: "2"
+services:
+        svn:
+                build: .
+                volumes:
+                        - ./www:/wwwroot
+                environment:
+                        - "SVN_USER=wang"
+                        - "SVN_PASS=honglei"
+                ports:
+                        - "3691:3690"
+                
