@@ -10,7 +10,7 @@ code auto to /wwwroot dir
 
 使用方式
   
-   docker pull tu6ge/svn
+    docker pull tu6ge/svn
 
 配置参数有
 
