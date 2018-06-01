@@ -8,6 +8,10 @@ code auto to /wwwroot dir
 这是一个svn服务端的docker
 可以支持自动部署代码
 
+使用方式
+  
+   docker pull tu6ge/svn
+
 配置参数有
 
   环境变量
